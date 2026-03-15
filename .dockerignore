@@ -1,0 +1,54 @@
+# Create .dockerignore to exclude unnecessary files
+cat > .dockerignore << 'EOF'
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Git
+.git/
+.gitignore
+.github/
+
+# Environment
+.env
+.env.local
+.venv
+venv/
+ENV/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files (already in container)
+~/.piper/
+*.onnx
+*.json
+
+# Large files
+*.tar
+*.gz
+*.zip
+*.wav
+*.mp3
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+uploads/
+EOF

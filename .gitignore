@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+*.log
+Dockerfile.dev
+docker-compose.override.yml
+
+# Local files
+test.wav
+*.wav
+*.mp3
+*.ogg
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Model files (if any local copies)
+models/
+!app/models/
+*.onnx
+*.onnx.json
+!app/models/*.py
+
+# Temporary files
+tmp/
+temp/
+uploads/
