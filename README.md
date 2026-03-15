@@ -11,4 +11,4 @@ pinned: false
 
 # Piper TTS API
 
-A FastAPI-based Text-to-Speech API using Piper TTS.
+A FastAPI-based Text-to-Speech API using Piper TTS
